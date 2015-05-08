@@ -1,0 +1,116 @@
+// Jeuvalyne Poblete
+// CECS100
+// Matrix Project 2
+// 05.07.15
+
+import java.util.Scanner; //declare header
+public class Matrix2 //declare class "Matrix2"
+{
+  public static void main(String args[]) //declare main
+  {
+    holytrinity(); //call holytrinity module
+  } //end main
+  
+  public static void holytrinity() //declare holytrinity module
+  {
+    int l; //delcare & initialize l
+    Scanner input = new Scanner(System.in); //import new scanner
+    System.out.println("*Trinity on cellphone*"); //display "*trinity on cellphone*"
+    System.out.println("What does Trinity ask Cypher? : "); //display "what does trinity ask cypher?"
+    System.out.println("1. Cypher? Where's Tank?"); //display "1. cypher? where's tank?"
+    System.out.println("2. You know, for a long time, I thought I was in love with you, Cypher?"); //display "2. you know, for a long time, i thought i was in love with you, cypher?"
+    System.out.println("3. Who's this?"); //display "3. who's this?"
+    
+    l = input.nextInt(); //input l
+    
+    do //do-while loop
+    { 
+      if (l < 0 || l > 3) //if condition (l < 0 || l > 3)
+{
+        System.out.println("ERROR. Pick a number from 1-3."); //display "ERROR. pick a number from 1-3."
+        l = input.nextInt(); //input l
+      }
+      else if (l != 1) //else if condition (l != 1)
+      {
+        System.out.println("That's not what she asks. Pick again."); //display "that's not what she asks. pick again."
+        l = input.nextInt(); //input l
+      }
+      else //else 
+      {
+        System.out.println("'Cypher? Where's Tank?' Trinity questions"); //display "'cypher? where's tank?' trinity questions"
+        //insert Cypher line/module
+        System.out.println("'You killed them,' states Trinity, surprising Apoc and Switch."); //display "'you killed them,' states trinity, surprising apoc and switch."
+        break; //end loop
+      }}
+      while ( l > 0 || l < 3); //while condition (l > 0 || 1 < 3)
+       
+    
+//insert cypher line/module
+      System.out.println("Trinity realizes, 'My God. Morpheus. You gave them Morpheus.'"); //display "trinity realizes, 'my God. morpheus. you gave them morpheus.'"
+//insert Cypher's line/module
+      System.out.println("She tries to reason with Cypher, 'That's not true, Cypher. He set us free.'"); //display "she tries to reason with cypher, 'that's not true, cypher. he set us free.'"
+//insert Cypher's line/module
+      System.out.println("What does Trinity say in reply to Cypher's outrageous remarks? :"); //display "what does trinity say in reply to cypher's outrageous remarks? :"
+      System.out.println("1. Shut up, Cypher!"); //display "1. shut up, cypher!"
+      System.out.println("2. The Matrix isn't real!"); //display "2. the matrix isn't real!"
+      System.out.println("3. Cypher, let's not be unreasonable, okay?"); //display "3. cypher, let's not be unreasonable, okay?"
+
+      l = input.nextInt(); //input l
+    
+    do //do-while loop
+    {
+      if (l < 0 || l > 3) //if condition (l < 0 || l > 3)
+{
+  System.out.println("ERROR. Pick a number from 1-3."); //display "ERROR. pick a number from 1-3."
+  l = input.nextInt(); //input l
+      }
+      else if (l != 2) //else-if condition (l != 2)
+      {
+        System.out.println("That's not what she says. Pick again."); //display "that's not what she says. pick again."
+        l = input.nextInt(); //input l
+      }
+      else //else
+      {
+        //insert Cypher line/module
+    System.out.println("*Trinity looks up at Apoc, her face grows pale*"); //display "*trinity looks up at apoc, her face grows pale*"
+    //insert Apoc line/module
+    //insert cypher line/module
+    //insert switch line/module
+    break; //end loop
+      }}
+      while ( l > 0 || l < 4); //while condition (l > 0 || l < 4);
+      
+      System.out.println("What does Trinity say to Cypher next? :"); //display "what does trinity say to cypher next? :"
+      System.out.println("1. You're acting real mature, Cypher."); //display "1. you're acting real mature, cypher."
+      System.out.println("2. You're insane!"); //display "2. you're insane!"
+      System.out.println("3. But you're out, Cypher. You can't go back."); //display "3. but you're out, cypher. you can't go back."
+      
+      l = input.nextInt(); //input l
+      
+       do //do-while loop
+       {
+      if (l < 0 || l > 3) //if condition (1 < 0 || l > 3)
+{
+  System.out.println("ERROR. Pick a number from 1-3."); //display "ERROR. pick a number from 1-3."
+  l = input.nextInt(); //input l
+      }
+      else if (l != 3) //else-if condition (l != 3)
+      {
+        System.out.println("That's not what she says. Pick again."); //display "that's not what she says. pick again."
+        l = input.nextInt(); //input l
+      }
+      else //else
+      {
+        //insert Cypher line/module
+    System.out.println("Trinity begs, 'Oh no, please don't.'"); //display "trinity begs, 'oh no, please don't.'"
+    System.out.println("*Trinity's eyes find Switch, knowing she's next*"); //display "*trinity's eyes find switch, knowing she's next*"
+    //insert switch line/module
+    System.out.println("*Switch suddenly feels her body severed from her mind as she is murdered*"); //display "switch suddenly feels her body severed from her mind as she is murdered*"
+    //insert cypher line/module
+    break; //end loop
+      }
+       }
+       while ( l > 0 || l < 4); //while condition (l > 0 || l < 4)
+  }
+}
+    
